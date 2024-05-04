@@ -12,7 +12,8 @@ export default function Home() {
     return (
         <div>
             <h1>Count: {count}</h1>
-            <CounterButton increment={incrementCount} /><br></br>
+            <CounterButton increment={incrementCount} />
+            <br></br>
             <button onClick={() => setDummyState(prev => prev + 1)}>Change Dummy State</button>
         </div>
     );
